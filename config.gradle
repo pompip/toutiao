@@ -1,0 +1,69 @@
+
+ext {
+
+    android = [
+            compileSdkVersion      : 25,
+            buildToolsVersion      : "26.0.1",
+            applicationId          : "com.huanxi.toutiao",
+            minSdkVersion          : 16,
+            targetSdkVersion       : 25,
+            versionCode            : 11,
+            versionName            : "2.1.3"
+    ]
+
+    //最新的是7，2.0.5----->
+
+
+//    sign = [
+//            storeFile    : "debug.jks",
+//            storePassword: "20171024",
+//            keyAlias     : "duocai",
+//            keyPassword  : "20171024"
+//    ]
+
+    sign = [
+            storeFile    : "huanxi.jks",
+            storePassword: "huanxi123",
+            keyAlias     : "huanxi",
+            keyPassword  : "huanxi123"
+    ]
+    dependVersion = [
+            support: "25.3.1"
+    ]
+
+    dependencies = [
+            //android-support
+            "support-v4"            : "com.android.support:support-v4:${dependVersion.support}",
+            "appcompat-v7"          : "com.android.support:appcompat-v7:${dependVersion.support}",
+            "design"                : "com.android.support:design:${dependVersion.support}",
+            "recyclerview"          : "com.android.support:recyclerview-v7:${dependVersion.support}",
+            "cardview"              : "com.android.support:cardview-v7:${dependVersion.support}",
+
+            //陈宇明的Adapterh
+            "baseRecyclerViewAdaperHelper": "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30",
+            "statusBarUtils": "com.jaeger.statusbarutil:library:1.4.0",
+            "glide": "com.github.bumptech.glide:glide:3.6.1",
+
+            //butterknife
+            "butterKnife": "com.jakewharton:butterknife:8.8.1",
+            "butterknife-compiler": "com.jakewharton:butterknife-compiler:8.8.1",
+
+            //视频播放器；
+            "videoPlayer"       :"cn.jzvd:jiaozivideoplayer:6.2.7",
+
+            //ui
+            "lottie"                : "com.airbnb.android:lottie:2.1.0",
+            "easyRefreshLayout" :'com.github.anzaizai:EasyRefreshLayout:1.3.1',
+
+            "flowLayout"        : "com.hyman:flowlayout-lib:1.1.2",
+            "viewpagerIndicator": "com.github.hackware1993:MagicIndicator:1.5.0",
+            "circleImageView": "de.hdodenhof:circleimageview:2.2.0",
+            "circleProgressBar": "com.github.lzyzsd:circleprogress:1.2.1",
+
+            "datePicker":"com.contrarywind:Android-PickerView:3.2.7",
+            "RxPermission":"com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar",
+            //弹性
+            "rebound"                    : 'com.facebook.rebound:rebound:0.3.8'
+
+    ]
+}
