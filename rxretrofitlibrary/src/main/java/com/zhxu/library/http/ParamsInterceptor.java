@@ -218,7 +218,8 @@ public class ParamsInterceptor implements Interceptor {
         String token=RxRetrofitApp.getToken();
 
         if (TextUtils.isEmpty(token)) {
-            token="duocaikeji2018";
+//            token="duocaikeji2018";
+            token="huan1xi2tou3tiao4def";
         }
         clone.put("token", token);
 

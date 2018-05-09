@@ -41,8 +41,10 @@ public abstract class BaseApi<T> implements Func1<BaseResultEntity<T>, T>{
 
 //    private static final String DEBUG_URL="http://118.31.4.145/html/hxtoutiao/public/api/index.php/news/";
 //    private static final String RELEASE_URL="http://118.31.4.145/html/hxtoutiao/public/api/index.php/news/";
-    private static final String DEBUG_URL="http://118.31.4.145/html/hxtoutiao/public/api/news/";
-    private static final String RELEASE_URL="http://118.31.4.145/html/hxtoutiao/public/api/news/";
+//    private static final String DEBUG_URL="http://118.31.4.145/html/hxtoutiao/public/api/news/";
+//    private static final String RELEASE_URL="http://118.31.4.145/html/hxtoutiao/public/api/news/";
+ private static final String DEBUG_URL="http://192.168.0.38/api/news/";
+    private static final String RELEASE_URL="http://192.168.0.38/api/news/";
 
 
     /*方法-如果需要缓存必须设置这个参数；不需要不用設置*/
