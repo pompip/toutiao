@@ -26,7 +26,7 @@
             android:drawableLeft="@drawable/icon_new_search"
             android:drawablePadding="5dp"
             android:gravity="center_vertical"
-            android:hint="在全民头条赚钱"
+            android:hint="在草莓头条赚钱"
             android:paddingLeft="10dp"
             android:textColorHint="#cacaca"
             />

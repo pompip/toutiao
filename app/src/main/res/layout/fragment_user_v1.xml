@@ -417,7 +417,7 @@
                     android:layout_marginRight="@dimen/dp_10"
                     android:layout_weight="1"
                     android:gravity="end|center"
-                    android:text="全民头条如何赚钱?"
+                    android:text="草莓头条如何赚钱?"
                     android:textColor="#ff9024"
                     />
 

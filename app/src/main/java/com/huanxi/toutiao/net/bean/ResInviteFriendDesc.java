@@ -8,7 +8,7 @@ public class ResInviteFriendDesc {
 
 
     /**
-     * inventtext : 您可通过微信、朋友圈、QQ、面对面邀请等方式邀请好友加入全民头条。您可同步获得该好友完成新手任务所得金币，共2500金币。另外，您还可以持续获得好友所得金币的20%。
+     * inventtext : 您可通过微信、朋友圈、QQ、面对面邀请等方式邀请好友加入草莓头条。您可同步获得该好友完成新手任务所得金币，共2500金币。另外，您还可以持续获得好友所得金币的20%。
      简单阅读，轻松赚零花钱！快快行动起来，邀请更多好友加入进来！
      * showTextForLogin : 1
      * textforlogin : {"id":34,"title":"121212","cont":null,"imgurl":null,"url":"http://baidu.com","downurl":null,"size":null,"packename":null,"appname":null,"type":"10","code":null,"phonetype":null}

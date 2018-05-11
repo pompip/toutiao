@@ -60,7 +60,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="我的全民头条赚了"
+                android:text="我的草莓头条赚了"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@color/text_black"
                 android:textSize="16sp"
