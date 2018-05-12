@@ -79,7 +79,7 @@
             android:value="${UMENG_CHANNEL_VALUE}"/>
         <meta-data
             android:name="UMENG_APPKEY"
-            android:value="5a7a8021f43e480a7b0000dc"/>
+            android:value="5af67200f43e4834a40001a0"/>
 
         <!-- 推啊的key; -->
         <meta-data
