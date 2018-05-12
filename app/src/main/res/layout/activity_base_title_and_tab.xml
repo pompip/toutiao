@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.huanxi.toutiao.ui.activity.user.UserCollectionActivity">
+    tools:context="com.duocai.caomeitoutiao.ui.activity.user.UserCollectionActivity">
 
     <!--//这里是一个ViewPager的页面；-->
 

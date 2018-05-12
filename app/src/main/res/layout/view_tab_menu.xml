@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<com.huanxi.toutiao.ui.view.MyScrollerView
+<com.duocai.caomeitoutiao.ui.view.MyScrollerView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/my_scroll_view"
@@ -56,5 +56,5 @@
         </FrameLayout>
     </LinearLayout>
 
-</com.huanxi.toutiao.ui.view.MyScrollerView>
+</com.duocai.caomeitoutiao.ui.view.MyScrollerView>
 

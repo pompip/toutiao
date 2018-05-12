@@ -5,11 +5,11 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <com.huanxi.toutiao.ui.view.ads.GDTBannerView
+    <com.duocai.caomeitoutiao.ui.view.ads.GDTBannerView
         android:id="@+id/gdt_banner_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    </com.huanxi.toutiao.ui.view.ads.GDTBannerView>
+    </com.duocai.caomeitoutiao.ui.view.ads.GDTBannerView>
 
 </LinearLayout>

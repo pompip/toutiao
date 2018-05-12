@@ -9,7 +9,7 @@
 
     <!--推啊的浮标的广告-->
     <!--浮标-->
-    <com.huanxi.toutiao.ui.view.ads.TAFloatView
+    <com.duocai.caomeitoutiao.ui.view.ads.TAFloatView
         android:id="@+id/TMAw1"
         android:layout_width="50dp"
         android:layout_height="50dp"

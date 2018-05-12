@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="com.huanxi.toutiao">
+          package="com.duocai.caomeitoutiao">
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -101,7 +101,7 @@
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.huanxi.toutiao.fileprovider"
+            android:authorities="com.duocai.caomeitoutiao.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

@@ -41,7 +41,8 @@
     <color name="user_ranking_bg">#be2836</color>
     
     
-    <color name="base_color_orange">#ff7c34</color>
+    <!--<color name="base_color_orange">#ff7c34</color>-->
+    <color name="base_color_orange">#ff5555</color>
 
 
     <!--用户相关的颜色配置信息-->
@@ -100,8 +101,8 @@
     <color name="tab_view_page_divider_color">#dbd2d2</color>
 
     <!-- v1版本用户界面所用颜色 -->
-    <color name="color_ff7e34">#ff7e34</color>
-    <color name="color_fb7c53">#fb7c53</color>
+    <color name="color_ff7e34">@color/base_color_orange</color>
+    <color name="color_fb7c53">@color/base_color_orange</color>
     <color name="color_19bf5c">#19bf5c</color>
     <color name="color_ffffff">#ffffff</color>
     <color name="color_f29f01">#f29f01</color>

@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="com.huanxi.toutiao.ui.activity.news.NewsDetailRecycleViewActivity">
+        tools:context="com.duocai.caomeitoutiao.ui.activity.news.NewsDetailRecycleViewActivity">
 
         <RelativeLayout
             android:id="@+id/rl_container"
@@ -23,7 +23,7 @@
             android:layout_weight="1"
             >
 
-            <com.huanxi.toutiao.ui.view.loading.SimpleMultiStateView
+            <com.duocai.caomeitoutiao.ui.view.loading.SimpleMultiStateView
                 android:id="@+id/SimpleMultiStateView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -40,7 +40,7 @@
                     app:srlFixedHeaderViewId="@+id/profile"
                     app:srlEnablePreviewInEditMode="false">
 
-                    <com.huanxi.toutiao.ui.view.refresh.MyClassicsHeader
+                    <com.duocai.caomeitoutiao.ui.view.refresh.MyClassicsHeader
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:srlClassicsSpinnerStyle="FixedBehind"
@@ -64,7 +64,7 @@
 
 
 
-            </com.huanxi.toutiao.ui.view.loading.SimpleMultiStateView>
+            </com.duocai.caomeitoutiao.ui.view.loading.SimpleMultiStateView>
 
 
             <ProgressBar
@@ -110,7 +110,7 @@
 
 
 
-    <com.huanxi.toutiao.ui.view.ReadArticleAwaryView
+    <com.duocai.caomeitoutiao.ui.view.ReadArticleAwaryView
         android:id="@+id/award_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -121,7 +121,7 @@
         android:scaleY="0.5"
         >
 
-    </com.huanxi.toutiao.ui.view.ReadArticleAwaryView>
+    </com.duocai.caomeitoutiao.ui.view.ReadArticleAwaryView>
 
 
 

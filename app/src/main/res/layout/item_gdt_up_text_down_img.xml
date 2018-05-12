@@ -9,7 +9,7 @@
 
     <!--广点通上文下图的一个Item;-->
 
-   <com.huanxi.toutiao.ui.view.ads.GDTUpTextDownImg
+   <com.duocai.caomeitoutiao.ui.view.ads.GDTUpTextDownImg
         android:id="@+id/gdt_up_text_down"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"

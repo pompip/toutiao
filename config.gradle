@@ -8,26 +8,26 @@ ext {
             applicationId          : "com.duocai.caomeitoutiao",
             minSdkVersion          : 16,
             targetSdkVersion       : 25,
-            versionCode            : 11,
-            versionName            : "2.1.3"
+            versionCode            : 1,
+            versionName            : "1.0.0"
     ]
 
     //最新的是7，2.0.5----->
 
 
-//    sign = [
-//            storeFile    : "debug.jks",
-//            storePassword: "20171024",
-//            keyAlias     : "duocai",
-//            keyPassword  : "20171024"
-//    ]
-
     sign = [
-            storeFile    : "huanxi.jks",
-            storePassword: "huanxi123",
-            keyAlias     : "huanxi",
-            keyPassword  : "huanxi123"
+            storeFile    : "debug.jks",
+            storePassword: "20171024",
+            keyAlias     : "duocai",
+            keyPassword  : "20171024"
     ]
+
+//    sign = [
+//            storeFile    : "huanxi.jks",
+//            storePassword: "huanxi123",
+//            keyAlias     : "huanxi",
+//            keyPassword  : "huanxi123"
+//    ]
     dependVersion = [
             support: "25.3.1"
     ]

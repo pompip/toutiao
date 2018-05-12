@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/shape_profit_detail"
-    tools:context="com.huanxi.toutiao.ui.activity.user.IntergralShopActivity">
+    tools:context="com.duocai.caomeitoutiao.ui.activity.user.IntergralShopActivity">
 
 
     <FrameLayout

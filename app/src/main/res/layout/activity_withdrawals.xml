@@ -9,7 +9,7 @@
     android:background="@color/white_color"
     android:paddingLeft="20dp"
     android:paddingRight="20dp"
-    tools:context="com.huanxi.toutiao.ui.activity.user.WithdrawalsActivity">
+    tools:context="com.duocai.caomeitoutiao.ui.activity.user.WithdrawalsActivity">
 
     <TextView
         android:layout_width="wrap_content"

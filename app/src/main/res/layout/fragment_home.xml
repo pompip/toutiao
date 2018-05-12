@@ -15,7 +15,7 @@
         />
 
 
-    <com.huanxi.toutiao.ui.view.VeticalDrawerLayout
+    <com.duocai.caomeitoutiao.ui.view.VeticalDrawerLayout
         android:id="@+id/vdl_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -81,25 +81,25 @@
                 android:background="#e7e9ee"
                 />
 
-            <com.huanxi.toutiao.ui.view.NewsRefreshBanner
+            <com.duocai.caomeitoutiao.ui.view.NewsRefreshBanner
                 android:id="@+id/nrb_refresh_banner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/menu"
                 >
 
-            </com.huanxi.toutiao.ui.view.NewsRefreshBanner>
+            </com.duocai.caomeitoutiao.ui.view.NewsRefreshBanner>
 
 
         </RelativeLayout>
 
-        <com.huanxi.toutiao.ui.view.TabMenuView
+        <com.duocai.caomeitoutiao.ui.view.TabMenuView
             android:id="@+id/tmv_tab_menu"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             />
 
-    </com.huanxi.toutiao.ui.view.VeticalDrawerLayout>
+    </com.duocai.caomeitoutiao.ui.view.VeticalDrawerLayout>
 
 
 </LinearLayout>

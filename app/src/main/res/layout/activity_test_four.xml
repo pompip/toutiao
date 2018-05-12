@@ -14,7 +14,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context="com.huanxi.toutiao.ui.activity.TestFourActivity">
+        tools:context="com.duocai.caomeitoutiao.ui.activity.TestFourActivity">
 
         <!--这里实现帧动画；-->
 
@@ -145,7 +145,7 @@
         android:visibility="gone"
         >
 
-        <com.huanxi.toutiao.ui.view.refresh.MyClassicsHeader
+        <com.duocai.caomeitoutiao.ui.view.refresh.MyClassicsHeader
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:srlClassicsSpinnerStyle="FixedBehind"/>

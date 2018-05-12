@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.huanxi.toutiao.ui.activity.news.search.SearchActivity">
+    tools:context="com.duocai.caomeitoutiao.ui.activity.news.search.SearchActivity">
 
     <include
         layout="@layout/view_status_re"

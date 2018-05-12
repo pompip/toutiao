@@ -11,7 +11,7 @@
     app:srlPrimaryColor="#e7e9ee"
     >
 
-    <com.huanxi.toutiao.ui.view.refresh.MyClassicsHeader
+    <com.duocai.caomeitoutiao.ui.view.refresh.MyClassicsHeader
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="10dp"

@@ -13,7 +13,7 @@
         android:scaleType="fitXY"
         android:src="@drawable/happy_bg" />
 
-    <com.huanxi.toutiao.ui.view.luckwalk.LuckyContainerView
+    <com.duocai.caomeitoutiao.ui.view.luckwalk.LuckyContainerView
         android:id="@+id/lvContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -22,7 +22,7 @@
         android:focusable="true"
         android:focusableInTouchMode="true">
 
-        <com.huanxi.toutiao.ui.view.luckwalk.Luckywalk
+        <com.duocai.caomeitoutiao.ui.view.luckwalk.Luckywalk
             android:id="@+id/lwView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -63,6 +63,6 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/turn_rule" />
         </LinearLayout>
-    </com.huanxi.toutiao.ui.view.luckwalk.LuckyContainerView>
+    </com.duocai.caomeitoutiao.ui.view.luckwalk.LuckyContainerView>
 
 </LinearLayout>

@@ -48,7 +48,7 @@
                 </FrameLayout>
 
 
-                <com.huanxi.toutiao.ui.view.sign.NewSignView
+                <com.duocai.caomeitoutiao.ui.view.sign.NewSignView
                     android:id="@+id/nsv_sign_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
                     android:layout_marginRight="10dp"
                     >
 
-                </com.huanxi.toutiao.ui.view.sign.NewSignView>
+                </com.duocai.caomeitoutiao.ui.view.sign.NewSignView>
 
 
             </LinearLayout>

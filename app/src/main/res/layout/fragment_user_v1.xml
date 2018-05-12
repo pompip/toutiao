@@ -418,7 +418,7 @@
                     android:layout_weight="1"
                     android:gravity="end|center"
                     android:text="草莓头条如何赚钱?"
-                    android:textColor="#ff9024"
+                    android:textColor="@color/base_color_orange"
                     />
 
                 <ImageView style="@style/userOperationItemIndicatorStyle_v1"/>
@@ -522,7 +522,7 @@
                     android:layout_weight="1"
                     android:gravity="end|center"
                     android:text="1-10元随机红包"
-                    android:textColor="#ff9024"
+                    android:textColor="@color/base_color_orange"
                     />
 
                 <ImageView style="@style/userOperationItemIndicatorStyle_v1"/>

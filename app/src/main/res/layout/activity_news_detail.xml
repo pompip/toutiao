@@ -100,7 +100,7 @@
             android:scrollbars="vertical"
             >
 
-            <com.huanxi.toutiao.ui.view.loading.SimpleMultiStateView
+            <com.duocai.caomeitoutiao.ui.view.loading.SimpleMultiStateView
                 android:id="@+id/SimpleMultiStateView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -121,7 +121,7 @@
 
                 </LinearLayout>
 
-            </com.huanxi.toutiao.ui.view.loading.SimpleMultiStateView>
+            </com.duocai.caomeitoutiao.ui.view.loading.SimpleMultiStateView>
         </ScrollView>
 
 

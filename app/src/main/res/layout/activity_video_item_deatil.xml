@@ -20,7 +20,7 @@
             android:layout_height="200dp">
 
             <!--这里是视频的播放器；-->
-            <com.huanxi.toutiao.ui.view.MyVideoPlayer
+            <com.duocai.caomeitoutiao.ui.view.MyVideoPlayer
                 android:id="@+id/videoplayer"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"/>
@@ -78,7 +78,7 @@
     </LinearLayout>
 
 
-    <com.huanxi.toutiao.ui.view.ReadArticleAwaryView
+    <com.duocai.caomeitoutiao.ui.view.ReadArticleAwaryView
         android:id="@+id/award_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -89,6 +89,6 @@
         android:scaleY="0.5"
         >
 
-    </com.huanxi.toutiao.ui.view.ReadArticleAwaryView>
+    </com.duocai.caomeitoutiao.ui.view.ReadArticleAwaryView>
 
 </FrameLayout>

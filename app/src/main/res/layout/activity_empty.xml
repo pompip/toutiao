@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context="com.huanxi.toutiao.ui.activity.other.EmptyActivity">
+    tools:context="com.duocai.caomeitoutiao.ui.activity.other.EmptyActivity">
 
     <TextView
         android:layout_width="wrap_content"

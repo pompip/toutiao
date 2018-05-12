@@ -8,7 +8,7 @@
     android:orientation="vertical"
     >
 
-    <com.huanxi.toutiao.presenter.ads.ta.MyTMNaTmView
+    <com.duocai.caomeitoutiao.presenter.ads.ta.MyTMNaTmView
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/apk/res-auto"
         android:id="@+id/TMNaView"

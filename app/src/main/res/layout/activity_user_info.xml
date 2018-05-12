@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.huanxi.toutiao.ui.activity.other.UserInfoActivity">
+    tools:context="com.duocai.caomeitoutiao.ui.activity.other.UserInfoActivity">
 
     <LinearLayout
         android:id="@+id/ll_sex"

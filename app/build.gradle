@@ -5,8 +5,10 @@ apply from: 'tinker-support.gradle'
 
 // 在MobSDK的扩展中注册ShareSDK的相关信息
 MobSDK {
-    appKey "242a4fdf7b4b4"
-    appSecret "1292d6b8281f69f227f3b7b36e6d7979"
+//    appKey "242a4fdf7b4b4"
+//    appSecret "9d25d9e8481c4c62ee1ba9c462a3ee96"
+    appKey "25b90116240a8"
+    appSecret "045aabc93c243278851c92b1638186de"
 
     ShareSDK {
         devInfo {
@@ -17,16 +19,20 @@ MobSDK {
                 shareByAppClient false
             }
             Wechat {
-                appId "wx1468a7ef71d1710e"
-                appSecret "0d3bd82532be942b81d8eace37442696"
+//                appId "wx1468a7ef71d1710e"
+//                appSecret "0d3bd82532be942b81d8eace37442696"
+                appId "wxd32c41c7078ffedb"
+                appSecret "93e8ebe05dbb0f881c29617390fb32ec"
 //                bypassApproval false
 //                appId "wxa4ad00ecab0a20b8"
 //                appSecret "addb10fc5bc88c8acbba95aa4caed2b0"
                 bypassApproval false
             }
             WechatMoments {
-                appId "wx1468a7ef71d1710e"
-                appSecret "0d3bd82532be942b81d8eace37442696"
+//                appId "wx1468a7ef71d1710e"
+//                appSecret "0d3bd82532be942b81d8eace37442696"
+                appId "wxd32c41c7078ffedb"
+                appSecret "93e8ebe05dbb0f881c29617390fb32ec"
                 bypassApproval false
             }
 
@@ -90,7 +96,7 @@ android {
 
         manifestPlaceholders = [
                 JPUSH_PKGNAME: applicationId,
-                JPUSH_APPKEY : "6ed292fb2259f55349a738a6", //JPush上注册的包名对应的appkey.
+                JPUSH_APPKEY : "173e5883851a79331ec2de8f", //JPush上注册的包名对应的appkey.
                 JPUSH_CHANNEL: "developer-default", //暂时填写默认值即可.
         ]
 

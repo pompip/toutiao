@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center">
 
-    <com.huanxi.toutiao.ui.view.PercentLinearLayout
+    <com.duocai.caomeitoutiao.ui.view.PercentLinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_centerHorizontal="true"
@@ -115,7 +115,7 @@
                 android:text="下一页"
                 android:textColor="#ee404a"/>
         </LinearLayout>
-    </com.huanxi.toutiao.ui.view.PercentLinearLayout>
+    </com.duocai.caomeitoutiao.ui.view.PercentLinearLayout>
 
     <ImageView
         android:id="@+id/iv_close"

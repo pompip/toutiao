@@ -1,0 +1,105 @@
+package com.duocai.caomeitoutiao.ui.fragment.main;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.util.Log;
+import android.view.View;
+
+import com.db.ta.sdk.TMShTmListener;
+import com.db.ta.sdk.TMShTmView;
+import com.duocai.caomeitoutiao.R;
+import com.duocai.caomeitoutiao.globle.ConstantAd;
+import com.duocai.caomeitoutiao.ui.activity.other.MainActivity;
+import com.duocai.caomeitoutiao.ui.activity.other.SplashActivity;
+import com.duocai.caomeitoutiao.ui.fragment.base.BaseFragment;
+
+import butterknife.BindView;
+
+/**
+ * Created by Dinosa on 2018/2/22.
+ *
+ * 这里是推啊的广告位；
+ */
+
+public class SplashTuiAFragment extends BaseFragment {
+
+    @BindView(R.id.TMSh_container)
+    public TMShTmView mTMShTmView;
+
+    @Override
+    protected View getContentView() {
+        return inflatLayout(R.layout.fragment_splash_tuia);
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        SplashActivity splashActivity = ((SplashActivity) getBaseActivity());
+
+        Intent intent = new Intent(getBaseActivity(),MainActivity.class);
+        intent.putExtra(MainActivity.JPUSH_BROAD_CAST_BEAN,splashActivity.getJPushBroadcastBeanFromIntent());
+
+        mTMShTmView.setTargetClass(getActivity(),MainActivity.class,intent);
+
+        mTMShTmView.setAdListener(new TMShTmListener(){
+            @Override
+            public void onTimeOut() {
+                Log.d("TMShActivity", "onTimeOut");
+                //这里直接进行一个跳转的操作；
+                ((SplashActivity) getBaseActivity()).startActivity();
+                getBaseActivity().finish();
+            }
+
+            @Override
+            public void onReceiveAd() {
+                Log.d("TMShActivity", "onReceiveAd");
+            }
+
+            @Override
+            public void onFailedToReceiveAd() {
+                Log.d("TMShActivity", "onFailedToReceiveAd");
+                //这里直接进行一个跳转的操作；
+                //getBaseActivity().startActivity(new Intent(getActivity(), MainActivity.class));
+                ((SplashActivity) getBaseActivity()).startActivity();
+                getBaseActivity().finish();
+            }
+
+            @Override
+            public void onLoadFailed() {
+                Log.d("TMShActivity", "onLoadFailed");
+                //这里直接进行一个跳转的操作；
+                //getBaseActivity().startActivity(new Intent(getActivity(), MainActivity.class));
+                ((SplashActivity) getBaseActivity()).startActivity();
+                getBaseActivity().finish();
+            }
+
+            @Override
+            public void onCloseClick() {
+                Log.d("TMShActivity", "onCloseClick");
+            }
+
+            @Override
+            public void onAdClick() {
+                Log.d("TMShActivity", "onClick");
+            }
+
+            @Override
+            public void onAdExposure() {
+                Log.d("TMShActivity", "onAdExposure");
+            }
+        });
+
+        mTMShTmView.loadAd(ConstantAd.TuiAAD.SPLASH_AD);
+    }
+
+
+    @Override
+    public void onDestroy() {
+        if (mTMShTmView != null) {
+            mTMShTmView.destroy();
+        }
+        super.onDestroy();
+    }
+}
