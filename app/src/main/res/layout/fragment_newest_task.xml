@@ -168,7 +168,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/shape_task_new_bg"
                     android:src="@drawable/bg_task_red_packet_waiting"
-                    android:padding="13dp"
+                    android:padding="0dp"
                     />
 
                 <TextView
@@ -179,13 +179,13 @@
                     android:textColor="@color/white_color"
                     android:textSize="18sp"
                     android:gravity="center"
-                    android:layout_marginBottom="25dp"
+                    android:layout_marginBottom="28dp"
                     android:visibility="visible"
                     />
 
             </FrameLayout>
 
-
+            <!--android:paddingBottom="10dp"-->
             <ImageView
                 android:id="@+id/iv_gold_game"
                 android:layout_width="0dp"
@@ -193,7 +193,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/shape_task_new_bg"
                 android:src="@drawable/bg_gold_game"
-                android:paddingBottom="10dp"
+
                 />
 
         </LinearLayout>
